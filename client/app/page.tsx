@@ -34,7 +34,6 @@ export default function Home() {
     }
     setLoading(false);
   };
-  console.log(results);
   return (
     <div className='p-2 flex flex-col w-full h-full items-center my-8'>
       <h1 className='p-2 font-bold text-4xl'>Website content Search</h1>
